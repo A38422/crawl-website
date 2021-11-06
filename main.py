@@ -1,7 +1,3 @@
-# 1. Gửi request lên trang https://vnexpress.net, đọc dữ liệu trả về và lấy ra tất cả các đường link của bài post. 2.
-# 2. Gửi request đến bài post và lấy về : Title, description, time(timestamp), content, author. ghi vào file txt. 1 bài
-# post 1 file.
-
 import requests
 from lxml import html
 from urllib.parse import urlparse
